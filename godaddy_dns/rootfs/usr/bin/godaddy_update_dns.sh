@@ -24,6 +24,7 @@ fi
 
 if [ "${ANSWER}" != '' ]
 then
+    echo "Params: Action=${ACTION} Hostname=${HOSTNAME} Record: ${RECORD_TYPE} Data: ${DATA_VALUE}"
     echo "${ANSWER}"
 fi
 
